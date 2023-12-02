@@ -1,0 +1,59 @@
+/* _content/ContactManager/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Add Bootstrap CDN link in your layout.cshtml for Bootstrap styles to work */
+
+body[b-t2hag33jpz] {
+  /* Set the background color for the entire page */
+  background-color: #BFB7CC; /* Replace with your desired color */
+}
+
+a.navbar-brand[b-t2hag33jpz] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-t2hag33jpz] {
+  color: #ABB78F;
+}
+
+.btn-primary[b-t2hag33jpz] {
+  /* Use Bootstrap primary button styles */
+  color: #fff;
+  background-color: #817480;
+  border-color: #A5A299;
+}
+
+.nav-pills .nav-link.active[b-t2hag33jpz], .nav-pills .show > .nav-link[b-t2hag33jpz] {
+  /* Use Bootstrap active tab styles */
+  color: #FFC971 ;
+  background-color: #DAB49D;
+  border-color: #BB9BB0;
+}
+
+.border-top[b-t2hag33jpz] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-t2hag33jpz] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-t2hag33jpz] {
+  /* Use Bootstrap box shadow class */
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-t2hag33jpz] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-t2hag33jpz] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

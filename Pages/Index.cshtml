@@ -1,0 +1,65 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .section {
+        margin-bottom: 60px; /* Add margin to create space between sections */
+    }
+
+    .team-table {
+        margin-top: 60px; /* Add margin to create space above the table */
+    }
+</style>
+
+<div class="text-center section">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="section">
+    <h2>Project Overview</h2>
+    <p>This project is a CRUD (Create, Read, Update, Delete) application developed using ASP.NET Core. It includes the following features:</p>
+    <ul>
+        <li>Registered users can view all the approved data and can edit/delete their own data.</li>
+        <li>Managers have the authority to approve or reject contact data. Only approved contacts are visible to users.</li>
+        <li>Administrators have the highest level of access. They can approve/reject and edit/delete any data in the system.</li>
+    </ul>
+</div>
+
+<div class="section team-table">
+    <h2>Team Members</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Darpan Aryal</td>
+                <td>Project Developer</td>
+            </tr>
+            <tr>
+                <td>Aastha Pyakurel</td>
+                <td>Project Planner</td>
+            </tr>
+            <tr>
+                <td>Bikram Lamsal</td>
+                <td>Debug and Testing</td>
+            </tr>
+            <tr>
+                <td>Suman Chaudhary</td>
+                <td>Designer</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="section">
+    <h2>About Us</h2>
+    <p>We are a dedicated team of professionals working collaboratively to develop innovative solutions. Our diverse skills and roles contribute to the success of this project.</p>
+</div>
